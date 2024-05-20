@@ -1,6 +1,4 @@
 <script>
-  export const ssr = false;
-  import HiddenEmail from "svelte-hidden-email"
 </script>
 
 <div class="flex flex-col items-center min-h-[100dvh] p-6 sm:p-10">
@@ -65,8 +63,6 @@
             class="obfuscate-it" data-name="realkarmakun" data-domain="gmail" data-tld="com" data-mailto="true"
             href="#"
           >
-          <HiddenEmail to="realkarmakun@gmail.com" title="woah" />
-          realkarmakun@gmail.com
           </a>
         </div>
       </div>
