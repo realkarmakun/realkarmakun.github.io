@@ -2,11 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - master
+    branches: ["master"]
 
 jobs:
-  build_site:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
