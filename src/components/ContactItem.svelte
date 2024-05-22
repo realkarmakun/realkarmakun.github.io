@@ -3,6 +3,7 @@
     export let text;
     export let href;
     export let iconColor;
+    // test
   </script>
   
   <div class="flex items-center space-x-4">
