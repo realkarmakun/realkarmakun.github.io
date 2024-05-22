@@ -12,7 +12,7 @@
       title2="Java/Kotlin developer"
       imgSrc="../images/avatar1.webp"
     />
-    <div class="px-6 py-8 sm:px-10 sm:py-12 space-y-6 bg-slate-400 rounded-b-lg">
+    <div class="px-6 py-8 sm:px-10 sm:py-12 space-y-6 bg-slate-300 rounded-b-lg">
       <ContactItem
         iconClass="fa-brands fa-telegram"
         iconColor="text-blue-500"
