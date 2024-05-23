@@ -3,11 +3,20 @@
     import { base } from "$app/paths";
     import Step from "./Step.svelte";
 
-    
     let steps = [
-        {name: "pterocli", icon: "fa-brands fa-github", href: "https://github.com/MeProjectStudio/pterocli" },
-        {name: "pvpflag", icon: "fa-solid fa-skull", href: "https://modrinth.com/mod/pvpflag" }
-    ]
+        {
+            href: 'https://github.com/your-repo/pterocli',
+            icon: 'fa-solid fa-terminal',  // Replace with the actual icon class
+            name: 'pterocli',
+            image: 'images/pterocli-screen.webp'  // Replace with the actual image URL
+        },
+        {
+            href: 'https://github.com/your-repo/pvpflag',
+            icon: 'fa-solid fa-skull',  // Replace with the actual icon class
+            name: 'pvpflag',
+            image: 'images/pvpflag-screen.webp'  // Replace with the actual image URL
+        }
+    ];
     let benefits = [
         {name: 'love for ML', description: 'I like Machine Learning, anything related to it. including but not limted to math behind it. obviously CI/CD processes for ML are the sweet spot for me. in terms of experience sadly I did not have a chance to work with ML in production yet'},
         {name: 'prefer backend', description: "if we talking developing I like backend and critical mission developing. you know, making sure nothing ever fails, databases, premature optimization is my guilty pleasure (when I'm allowed to do it)"},
@@ -43,7 +52,6 @@
             <h6 class="text-lg sm:text-xl md:text-2xl">
                 anyway here is some of my least emberassing <span class="fira text-violet-400">Open Source</span> works (this is prob still at one link sorry)
             </h6>
-            
         </div>
         
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
