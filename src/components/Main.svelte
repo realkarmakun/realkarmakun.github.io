@@ -57,7 +57,7 @@
             </Step>
         </div>
     </section>
-    <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+    <!-- <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
         <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4">
             <h6 class="text-lg sm:text-xl md:text-2xl">still need to know more? </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
@@ -65,7 +65,7 @@
             </h3>
         </div>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
-            {#each benefits as benefit, index}
+            {#each benefits as benefit, index} -->
                 <!-- <div class="flex flex-col gap-2 mx-auto">
                     <div class="flex items-end gap-4">
                         <p
@@ -81,7 +81,7 @@
                     </div>
                     <p class="text-center italic">- {benefit.description}</p>
                 </div> -->
-                <div class="flex gap-6 sm:gap-8">
+                <!-- <div class="flex gap-6 sm:gap-8">
                     <p
                         class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
                     >
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             {/each}
-        </div>
+        </div> -->
 
     
   <section>
