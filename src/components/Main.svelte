@@ -5,13 +5,13 @@
 
     let steps = [
         {
-            href: 'https://github.com/your-repo/pterocli',
+            href: 'https://github.com/MeProjectStudio/pterocli',
             icon: 'fa-solid fa-terminal',  // Replace with the actual icon class
             name: 'pterocli',
             image: 'images/pterocli-screen.webp'  // Replace with the actual image URL
         },
         {
-            href: 'https://github.com/your-repo/pvpflag',
+            href: 'https://modrinth.com/mod/pvpflag',
             icon: 'fa-solid fa-skull',  // Replace with the actual icon class
             name: 'pvpflag',
             image: 'images/pvpflag-screen.webp'  // Replace with the actual image URL
