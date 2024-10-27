@@ -2,17 +2,18 @@
   "name": "rkkmio",
   "version": "0.0.1",
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^3.0.0",
-    "@sveltejs/adapter-static": "^3.0.1",
-    "@sveltejs/kit": "^2.0.0",
-    "@sveltejs/vite-plugin-svelte": "^3.0.0",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "svelte": "^4.2.7",
+    "@sveltejs/adapter-auto": "^3.3.1",
+    "@sveltejs/adapter-static": "^3.0.6",
+    "@sveltejs/kit": "^2.7.3",
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "svelte": "^4.2.19",
+    "svelte-adapter-bun": "^0.5.2",
     "svelte-carousel": "^1.0.25",
     "svelte-hidden-email": "^1.0.1",
-    "tailwindcss": "^3.4.3",
-    "vite": "^5.0.3"
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10"
   },
   "private": true,
   "scripts": {
